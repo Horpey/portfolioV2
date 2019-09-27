@@ -41,7 +41,7 @@ p {
   font-size: 14px;
 }
 .text-color {
-  color: #ffdd00;
+  color: #ffdd00 !important;
 }
 .page-header .content-center {
   max-width: 1000px;
@@ -150,7 +150,7 @@ p {
 
 .section-x {
   background: black;
-  padding: 130px 0px;
+  padding: 100px 0px;
 }
 .section-heading {
   font-weight: bold;
@@ -192,7 +192,7 @@ h6 {
   margin-left: 40px;
 }
 .profileimg div {
-  background: linear-gradient(#d0b4013b, #d0b40180), url(../img/profilepic.png);
+  background: url(../img/profilepic.png);
   background-position: center;
   background-size: cover;
   height: 260px;
@@ -200,13 +200,11 @@ h6 {
   box-shadow: -4px -4px #000000, -6px -6px #ffdd00;
   transition: 0.5s all;
 }
-.profileimg :hover {
-  box-shadow: 4px 4px #000000, 6px 6px #ffdd00;
-  background: linear-gradient(#d0b40100, #d0b40100), url(../img/profilepic.png);
-  background-position: center;
-  background-size: cover;
-}
 
+.otherproj {
+  font-weight: bold;
+  color: white !important;
+}
 .nav-pills .nav-item .nav-link,
 .nav-pills .nav-item .nav-link:hover {
   background-color: hsla(0, 0%, 87%, 0);
@@ -232,6 +230,55 @@ h6 {
 .nav-pills.nav-pills-primary .nav-item .nav-link.active:focus,
 .nav-pills.nav-pills-primary .nav-item .nav-link.active:hover {
   background: transparent;
+}
+.project-x .h3 {
+  color: white;
+  font-weight: bold;
+}
+.project-x .h3:hover {
+  text-decoration: none;
+}
+.stack span {
+  color: #80868b;
+  margin-right: 20px;
+}
+
+.link-ref {
+  height: 20px;
+  margin-top: 20px;
+}
+
+.card-x {
+  border-radius: 0px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #2d2e30;
+  margin-top: 10px;
+}
+.projimg div {
+  background-position: left center !important;
+  background-size: cover !important;
+  height: 315px;
+  width: 100%;
+  box-shadow: -4px -4px #000000, -6px -6px #ffdd00;
+  transition: 0.5s all;
+}
+
+.projee {
+  margin-bottom: 100px;
+}
+.card-other {
+  min-height: 400px;
+  position: relative;
+}
+
+.card-other .card-body .stack {
+  position: absolute;
+  bottom: 22px;
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1065px;
+  }
 }
 @-webkit-keyframes float {
   0% {

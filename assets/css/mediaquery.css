@@ -1,0 +1,38 @@
+@media (max-width: 576px) {
+  .horpeysvg,
+  .navbar-toggler,
+  .cursor,
+  .email-indicate,
+  .icon-indicate,
+  .mouse-indicator {
+    display: none;
+  }
+  .mtsm {
+    margin-top: 55px;
+  }
+  .mbsm {
+    margin-bottom: 55px;
+  }
+  .profileimg div {
+    width: 73%;
+    margin: 0 auto;
+  }
+  .section-heading {
+    margin-bottom: 50px;
+  }
+  .mb-menu {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(transparent, black, black);
+    padding: 100px 0px 30px 0px;
+    z-index: 9999;
+  }
+  .mb-menu .row div {
+    text-align: center;
+  }
+  .footer.footer-big {
+    padding: 30px 0px 170px 0px;
+  }
+}

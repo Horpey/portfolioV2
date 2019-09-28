@@ -13,6 +13,7 @@ self.addEventListener('install', e => {
           `/assets/demo/demo.css`,
           `/assets/css/custom-old.css`,
           `/assets/css/custom.css`,
+          `/assets/css/mediaquery.css`,
           `/assets/css/texttransform.css`,
           `/assets/js/plugins/magneticmouse/magnetic-mouse.css`,
           //JS Cache
